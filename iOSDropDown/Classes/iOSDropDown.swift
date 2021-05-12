@@ -53,7 +53,7 @@ open class DropDown : UITextField{
   }
 
   //Variables
-  fileprivate  var tableheightX: CGFloat = 100
+  fileprivate  var tableheightX: CGFloat = 200
   fileprivate  var dataArray = [NSAttributedString]()
   fileprivate  var imageArray = [String]()
   fileprivate  var parentController:UIViewController?
