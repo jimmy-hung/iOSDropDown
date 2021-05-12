@@ -35,7 +35,7 @@ open class DropDown : UITextField{
       layer.borderColor = borderColor.cgColor
     }
   }
-  @IBInspectable public var listHeight: CGFloat = 150{
+  @IBInspectable public var listHeight: CGFloat = 300 {
     didSet {
 
     }
@@ -53,7 +53,7 @@ open class DropDown : UITextField{
   }
 
   //Variables
-  fileprivate  var tableheightX: CGFloat = 200
+  fileprivate  var tableheightX: CGFloat = 100
   fileprivate  var dataArray = [NSAttributedString]()
   fileprivate  var imageArray = [String]()
   fileprivate  var parentController:UIViewController?
